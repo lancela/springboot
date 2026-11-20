@@ -1,0 +1,12 @@
+### 新增客户
+POST http://localhost:8080/customers
+Content-Type: application/json
+
+{
+  "name": "张三",
+  "phone": "13800000001",
+  "email": "zhangsan@example.com",
+  "company": "张三科技有限公司",
+  "address": "浙江宁波",
+  "status": 1
+}
